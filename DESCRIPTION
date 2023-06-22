@@ -1,0 +1,19 @@
+Package: myrepo
+Title: What the Package Does (Flowcytometric analysis)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Daniel", "Paul", , "danypaull16@gmail.com", role = c("PhD", "student"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (This packages guides the user through the flow cytometric analysis workflow which includes gating and selecting populations of interest, exporting gating layouts and excel files with frequency data and finally the umap analysis).
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+URL: git@github.com:daniellpaull/1st-repo.git
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    tibble
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
